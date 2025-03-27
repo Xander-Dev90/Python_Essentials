@@ -35,4 +35,12 @@ print(donald.quack())
 print(donald.height)
 print(donald.weight)
 print(donald.sex)
+#######################3
 
+def print_upper_texts(*texts):#*texts es un argumento de longitud variable
+    print(type(texts))#<class 'tuple'>
+    for text in texts:
+        print(text.upper())#upper() convierte el texto a mayúsculas
+
+
+print(print_upper_texts("hola", "mundo", "python"))
