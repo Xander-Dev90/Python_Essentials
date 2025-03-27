@@ -66,5 +66,10 @@ print("\nPrimer elemento de la lista convertida:", my_list_set[0])
 # Corrección: intersection requiere un argumento o usar intersection_update
 print("Elementos del set:", my_other_set)
 
-print(my_other_set.issubset(my_other_set))
+print(my_other_set.issubset(my_other_set))# 
+
+# slicing "Revanada" de listas
+
+slicing = mixed_list[2:2]
+print(slicing)
 

@@ -33,3 +33,10 @@ fin2 = time.time()
 
 print(f"Tiempo de ejecución de la clase Person: {fin1 - inicio1}")
 print(f"Tiempo de ejecución de la clase persa: {fin2 - inicio2}")
+
+x = 1 / 2 + 3 // 3 + 4 ** 2
+
+print(x)
+
+
+
